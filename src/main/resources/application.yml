@@ -1,0 +1,39 @@
+﻿#端口
+server: 
+  port: 8090
+  tomcat: 
+    uri-encoding: UTF-8
+spring:
+# 数据源配置
+  datasource: 
+#    url: jdbc:mysql://192.168.1.130:3306/consume?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
+    url: jdbc:mysql://192.168.1.252:3306/consume?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+# 日志级别
+#debug: true
+info: true
+#error: true
+#输出到log文件
+logging:
+    file: opcclient2.log
+    level:
+      org:
+        consume:
+          com: debug
+
+#opc service
+#opc:
+#  host: localhost
+#  user: 222
+#  password: 123456
+#  clsid: 04524449-c6b2-4d62-8471-c64fa1ddf64f
+#  qz: localhost.
+opc:
+  host: localhost
+  user: ServerX
+  password: 777888
+  clsid: 04524449-c6b2-4d62-8471-c64fa1ddf64f
+  qz: Local.
