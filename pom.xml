@@ -17,7 +17,7 @@
     </parent>
 
     <properties>
-        <mybatis-spring-boot>1.2.0</mybatis-spring-boot>
+        <mybatis-spring-boot>2.2.1</mybatis-spring-boot>
         <mysql-connector>5.1.39</mysql-connector>
     </properties>
 
