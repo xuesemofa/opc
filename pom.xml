@@ -17,7 +17,7 @@
     </parent>
 
     <properties>
-        <mybatis-spring-boot>1.2.0</mybatis-spring-boot>
+        <mybatis-spring-boot>2.3.1</mybatis-spring-boot>
         <mysql-connector>5.1.39</mysql-connector>
     </properties>
 
@@ -70,7 +70,7 @@
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
-            <version>1.1.1</version>
+            <version>1.4.7</version>
         </dependency>
 
 
